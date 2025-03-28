@@ -1,0 +1,252 @@
+/*Header*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    color: white;
+    text-decoration: white;
+}
+
+#header{
+    background: orangered;
+    background-size: cover;
+    background-position: top;
+    height: 125px;
+}
+
+.logo{
+    margin-top: -20px;
+    height: 140px;
+    width: 140px;
+}
+
+.list{
+    margin-left: 50%;
+    margin-top: -90px;
+}
+
+.list .home{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Hide dropdown by default */
+.dropdown-categories {
+    display: none;
+    position: absolute;
+    background: #ff3c00;
+    padding: 10px;
+    z-index: 1000;
+    border-radius: 15px;
+}
+
+/* Show dropdown on parent hover */
+.dropdown-parent:hover .dropdown-categories {
+    display: block;
+}
+
+/* Style individual dropdown links */
+.dropdown-categories a {
+    color: white;
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-categories a:hover {
+    background: rgb(22, 22, 22);
+    border-radius: 15px;
+}
+
+/* Ensure parent is relatively positioned */
+.dropdown-parent {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.list .about{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.list .contact{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.list .blog{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.list .cart{
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.list .account{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.list .wishlist{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.underline{
+    height: 5px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 60%;
+}
+
+/*Footer*/
+#footer .🦶{
+    background: black;
+    height: 250px;
+    background-position: bottom;
+    background-size: cover;
+}
+/*Site map*/
+.🗺️{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    padding-left: 125px;
+}
+
+.links{
+    padding-top: 10px;
+    padding-left: 140px;
+    text-decoration: none;
+}
+
+.links ul{
+    list-style-type: none;
+}
+/*categories*/
+.🐈{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    padding-left: 325px;
+    margin-top: -230px;
+}
+
+.categories{
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 350px;
+    text-decoration: none;
+}
+
+.categories ul{
+    list-style-type: none;
+}
+/*links*/
+.🔗{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    padding-left: 700px;
+    margin-top: -86px;
+}
+
+.social-links{
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 720px;
+    text-decoration: none;
+}
+
+.social-links ul{
+    list-style-type: none;
+}
+
+/*links*/
+/* Sitemap links (Home, Store, About Us, etc.) */
+.links ul li a,
+.categories ul li a,
+.social-links ul li a {
+    position: relative;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+}
+
+
+/*form*/
+.📄{
+    padding-left: 975px;
+    margin-top: -50px;
+    font-weight: 400;
+}
+
+.📧{
+    margin-left: 975px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 250px;
+    color: white;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border: white 2px solid;
+    border-radius: 50px;
+}
+.📧::placeholder{
+    color: white;
+}
+.📧:focus{
+    color: black;
+    border: 2px solid gray;
+    outline: none;
+    background: white;
+}
+
+.🔲 {
+    background: transparent ;
+    height: 40px;
+    width: 120px;
+    margin-left: 1050px;
+    margin-top: 10px;
+    border: white 2px solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .2s;
+}
+.🔲:hover{
+    color: black;
+    background: white;
+    box-shadow: 0px 7px 5px grey;
+}
+.🔲:active{
+    transform: translateY(2px);
+    box-shadow: 0px 5px 5px grey;
+}
+.📃 p{
+    margin-left: 975px;
+}
+/*Copyright*/
+#footer .©️{
+    color: white;
+    background: #1b1b1b;
+    text-align: center;
+}

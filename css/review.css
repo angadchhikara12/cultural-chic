@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.others-review{
+    margin-left: 20px;
+}
+.others-review h2{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+.others-review .seprate{
+    background: rgba(99, 99, 99, 0.9);
+    height: 1px;
+    width: 225px;
+}
+.others-review .card{
+    height: 250px;
+    width: 275px;
+    border: 2px solid orangered; /*Debugger */
+    /* border: none; */
+    display: inline-flex;
+    margin-top: 75px;
+    background: orangered;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 15px 10px black;
+    transition: 0.3s;
+}
+.others-review .card:hover{
+    box-shadow: 0 10px 10px black;
+}
+.others-review .elon .review{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 110px;
+    margin-right: 1010px;
+    /* background: black; */
+    display: flex;
+}
+.others-review .satya .review{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 110px;
+    margin-right: 650px;
+    /* background: black; */
+    display: flex;
+}
+
+.others-review .sundar .review{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 110px;
+    margin-right: 350px;
+    /* background: black; */
+    display: flex;
+}
+
+.others-review .card .product-link{
+    margin-top: 180px;
+    margin-left: 55px;
+    position: absolute;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+    padding-left: 50px;
+    box-shadow: 0 10px 10px black;
+    transition: 0.3s;
+}
+
+.others-review .card .product-link:hover{
+    box-shadow: 0 5px 10px black;
+    transform: translateY(5px);
+}
+
+.others-review .card .product-link i{
+    color: white;
+    padding-right: 5px;
+    margin-left: -5px;
+}
+
+.others-review .card .stars{
+    margin-top: 85px;
+    margin-left: -100px;
+}
+.others-review .card .stars i{
+    color: rgb(240, 240, 0);
+}
+.others-review .elon h4{
+    font-size: 24;
+    color: var(--font-color);
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: -87px;
+}
+.others-review .elon .image{
+    height: 100px;
+    width: 100px;
+    border-radius: 125px;
+    border: 2px solid orangered;
+    background: url('./../images/elon-musk.jpg');
+    background-position-y: -8px;
+    background-position-x: -22px;
+    background-size:150px;
+    margin-top: -55px;
+    display: block;
+    margin-left: 28%;
+}
+
+.others-review .satya .image{
+    height: 100px;
+    width: 100px;
+    border-radius: 125px;
+    border: 2px solid orangered;
+    background: url('./../images/satya-nadella.jpg');
+    background-position-x: -23px;
+    background-position-y: -22px;;
+    background-size: 150px;
+    margin-top: -55px;
+    display: block;
+    margin-left: 28%;
+}
+.others-review .satya h4{
+    font-size: 24;
+    color: var(--font-color);
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: -105px;
+}
+
+.others-review .sundar .image{
+    height: 100px;
+    width: 100px;
+    border-radius: 125px;
+    border: 2px solid orangered;
+    background: url('./../images/sundar-pichai.jpg');
+    background-size: 115px;
+    background-position: -10px -20px;
+    margin-left: 28%;
+    display: block;
+    margin-top: -55px;
+}
+.others-review .sundar h4{
+    font-size: 24;
+    color: var(--font-color);
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: -105px;
+}

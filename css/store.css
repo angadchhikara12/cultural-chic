@@ -1,0 +1,303 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*Store View*/
+.windows{
+    margin: 4rem;
+}
+
+.women-outfit h1{
+    color: black;
+    font-size: 25px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 40em;
+    margin-bottom: 15px;
+}
+
+.women-jewelries h1{
+    color: black;
+    font-size: 25px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 40em;
+    margin-bottom: 15px;
+}
+
+.card{
+    border: 2px solid grey;
+    margin: 15px;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 15px 5px black;
+    cursor: pointer;
+    transition: .5s;
+}
+.card:hover{
+    transform: translateY(5px);
+    box-shadow: 0 10px 5px black;
+}
+.card:active{
+    transform: translateY(17px);
+    box-shadow: none;
+}
+.card h2{
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+}
+.card h4{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.card p{
+    color: black;
+    font-size: 15;
+    font-weight: 550;
+}
+.show{
+    margin-left: 1070px;
+    margin-top: -250px;
+    position: absolute;
+    border: black 4px solid;
+    width: 28px;
+    height: 28px;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 0 10px 10px black;
+    cursor: pointer;
+    transition: .5s;
+}
+.show p{
+    color: black;
+    overflow: hidden;
+    text-overflow: none; 
+    white-space: nowrap;
+    width: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.show i{
+    color: black;
+    margin-left: 5px;
+    position: absolute;
+    top: 20px;
+    transition: .5s;
+}
+.show:hover{
+    width: 100px;
+}
+.show:hover p{
+    visibility: visible;
+    animation: typing 0.5s steps(10) forwards;
+}
+.show:hover i{
+    margin-left: 85px;
+}
+.show:active{
+    background: black;
+    color: white;
+    box-shadow: none;
+    transform: translateY(10px);
+}
+.show:active p{
+    color: white;
+}
+.show:active i{
+    color: white;
+}
+@keyframes typing{
+    from { 
+        width: 0;
+    }
+    to { 
+        width: 100%;
+    }
+}
+/*Product View*/
+.details{
+    margin-left: 35em;
+    margin-top: -21em;
+    margin-bottom: 30em;
+}
+.details h1{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.details .reviews i{
+    color: rgb(240, 240, 0);
+    font-size: 20px;
+    display: inline;
+    margin-bottom: 15px;
+}
+.details p{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 550;
+    color: black;
+    margin-top: -20px;
+    margin-left: 150px;
+}
+.details .seprate{
+    margin-bottom: 15px;
+    background:#80808080;
+    width: 25em;
+    height: .1em;
+}
+.details .seprate-1{
+    margin-bottom: 15px;
+    background: rgba(128, 128, 128, 0.5);
+    width: 25em;
+    height: .15em;
+}
+.details h2{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.details h4{
+    color: black;
+    font-size: 18px;
+    font-weight: 650;
+    margin-bottom: 15px;
+}
+.details .select{
+    border: 2px solid orangered;
+    margin-right: 37.5em;
+    cursor: pointer;
+    margin-bottom: 15px;
+    display: block;
+}
+.details .select span{
+    color: black;
+    padding: 15px;
+    font-weight: 600;
+}
+.details .select .icon i{
+    color: black;
+    position: absolute;
+    margin-left: 125px;
+    margin-top: -19px;  
+    transition: 0.5s;
+}
+.details .select:hover{
+    border-bottom: none;
+}
+.details .select:hover .icon i{
+    transform: rotate(180deg);
+}
+.details .select:hover .main-select{
+    transform: translateY(5px);
+    visibility: visible;
+    border-top: none;
+}
+.details .select .main-select{
+    visibility: hidden;
+    position: absolute;
+    border: 2px solid orangered;
+    background: white;
+    width: 142.5px;
+    margin-left: -1.7px;
+    transition: .25s;
+    margin-top: -5px;
+}
+.details .select .main-select option{
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+.details .select .main-select option:hover{
+    background: orangered;
+    color: white;
+}
+.details .review{
+    /* border: 2px solid orangered; */
+    margin-right: 535px;
+    margin-top: -15px;
+    height: 50px;
+    cursor: pointer;
+    background: orangered;
+    border-radius: 50px;
+    box-shadow: 0 10px 5px black;
+    transition: 0.5s;
+}
+.details .review i{
+    color: white;
+    margin-left: 15px;
+    margin-top: 6px;
+    padding: 10px;
+}
+.details .review p{
+    color: white;
+    margin-right: 15px;
+    margin-left: 45px;
+    margin-top: -30px;
+    font-size: 16px;
+    /* border: 2px solid orangered; */
+}
+.details .review:hover{
+    transform: translateY(3px);
+    box-shadow: 0 7px 5px black;
+}
+.details .review:active{
+    transform: translateY(10px);
+    box-shadow: none;
+    background: black;
+}
+.details button{
+    background: orangered;
+    color: white;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+    transition: .5s;
+    margin: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 10px 5px black;
+}
+.details button:hover{
+    box-shadow: 0 7px 5px black;
+    transform: translateY(3px);
+}
+.details button:active{
+    background: black;
+    color: white;
+    box-shadow: none;
+    transform: translateY(10px);
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    filter: blur(-5px);
+}
+  
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    filter: blur(-5px);
+}
+  
+.blur {
+    filter: blur(5px);
+}

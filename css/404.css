@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cacaca;
+}
+
+.content .tv{
+    width: 800px;
+    height: 400px;
+    background: black;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.content .tv .tv-neck{
+    width: 75px;
+    height: 50px;
+    background: black;
+    margin-top: 25px;
+    margin-left: 357px;
+}
+
+.content .tv .tv-bottom{
+    width: 150px;
+    height: 20px;
+    background: black;
+    margin-left: 320px;
+}
+
+.content .tv .screen{
+    width: 750px;
+    height: 350px;
+    background: grey;
+    margin-top: 25px;
+    margin-left: 25px;
+    /* margin-bottom: 15px; */
+}
+
+.content .tv h1{
+    height: 50px;
+    width: 100px;
+    padding-left: 35px;
+    background: white;
+    color: black;
+    margin-left: 325px;
+    margin-top: -345px;
+}
+
+.content .tv p{
+    height: 30px;
+    width: 125px;
+    background: white;
+    color: black;
+    margin-left: 325px;
+    padding: 5px;
+    margin-top: -15px;
+}
+
+.content .tv a button{
+    height: 45px;
+    width: 150px;
+    font-weight: 700;
+    font-size: 15px;
+    background: white;
+    color: black;
+    border: solid 2px white;
+    border-radius: 50px;
+    margin-left: 317px;
+    margin-top: 15px;
+    box-shadow: 0 7px 5px black;
+    cursor: pointer;
+    transition: .5s;
+}
+.content .tv a button:hover{
+    transform: translateY(1px);
+    box-shadow: 0 5px 5px black;
+}
+.content .tv a button:active{
+    transform: translateY(5px);
+    box-shadow: none;
+}

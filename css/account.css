@@ -1,0 +1,160 @@
+.form{
+    display: flex;
+    background: url('./../images/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 84vh;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.🪵{
+    display: none;
+    border: 2px solid white;
+    padding-top: 20px; padding-bottom: 20px;
+    padding-left: 40px; padding-right: 80px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+
+.🪵 .input{
+    width: 100%;
+    height: 15px;
+    padding: 10px;
+    padding-left: 15px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 2px;
+    justify-content: space-between;
+}
+
+.🪵 .input::placeholder{
+    color: white;
+}
+
+.🪵 button{
+    width: 110%;
+    height: 35px;
+    margin-left: 2px;
+    margin-top: 4px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+.🪵 button:hover{
+    background: white;
+    color: black;
+    box-shadow: 0px 5px 5px black;
+    border: none;
+}
+
+.🪵 button:active{
+    transform: translateY(5px);
+    box-shadow: none;
+    color: white;
+    background: black;
+    border: none;
+}
+
+.🪵 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.remember{
+    background: black;
+}
+
+.remember:hover{
+    background: black;
+}
+
+.remember:active{
+    background: black;
+}
+
+.🪵 p{
+    color: white;
+}
+
+.®️{
+    /* display: none; */
+    border: 2px solid white;
+    padding-top: 20px; padding-bottom: 20px;
+    padding-left: 40px; padding-right: 60px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+
+.®️ .input{
+    width: 100%;
+    height: 15px;
+    padding: 10px;
+    padding-left: 15px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    margin: 2px;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.®️ .input::placeholder{
+    color: white;
+}
+
+.®️ button{
+    width: 107%;
+    height: 35px;
+    margin-left: 2px;
+    margin-top: 4px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+.®️ button:hover{
+    background: white;
+    color: black;
+    box-shadow: 0px 5px 5px black;
+    border: none;
+}
+
+.®️ button:active{
+    transform: translateY(5px);
+    box-shadow: none;
+    color: white;
+    background: black;
+    border: none;
+}
+
+.terms{
+    color: purple;
+    size: 10px;
+}
+
+.®️ label{
+    color: #fff;
+}
+
+.®️ p{
+    color: #fff;
+}
+.®️ p a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
