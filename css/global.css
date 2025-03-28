@@ -179,12 +179,23 @@
 .social-links ul{
     list-style-type: none;
 }
-.discord-link:hover{
+
+.social-links ul li a i{
+    color: white;
+    transition: 0.5s;
+}
+
+.social-links ul li a{
+    color: white;
+    transition: 0.5s;
+}
+
+.social-links ul li a:hover{
     color: #5865F2;
 }
 
-.discord-link:hover i{
-    color: #5865F2;
+.social-links ul li a:hover i{
+    color :#5865F2;
 }
 
 /*links*/
