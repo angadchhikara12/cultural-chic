@@ -179,6 +179,9 @@
 .social-links ul{
     list-style-type: none;
 }
+.social-links .discord-link:hover{
+    color: #5865F2;
+}
 
 /*links*/
 /* Sitemap links (Home, Store, About Us, etc.) */
