@@ -87,14 +87,6 @@ function loadProductView() {
   });
 }
 
-function setupCardClickHandler() {
-  // Handle card clicks
-  document.querySelectorAll(".card").forEach(card => {
-    card.addEventListener("click", () => {
-      window.location.href = "?view=product";
-    });
-  });
-
 function loadOutfit(){
   const window = document.getElementById("window");
   window.innerHTML = `
@@ -131,4 +123,24 @@ function loadJewelry(){
       <p style="text-align: center; margin-top: 20px; color:#4e4e4e; font-weight: bold;">No more products to show</p>
   `;
 }
+
+function setupCardClickHandler() {
+  // Handle card clicks
+  document.querySelectorAll(".card").forEach(card => {
+    card.addEventListener("click", () => {
+      window.location.href = "?view=product";
+    });
+  });
+};
+  
+
+window.onload = function () {
+  const urlParams = new URLSearchParams(window.location.search);
+  const category = urlParams.get("category");
+
+  if (category === "outfit"){
+    loadOutfit();
+  } else if (category === "jewelry"){
+    loadJewelry();
+  }
 };
