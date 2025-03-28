@@ -183,6 +183,10 @@
     color: #5865F2;
 }
 
+.discord-link:hover i{
+    color: #5865F2;
+}
+
 /*links*/
 /* Sitemap links (Home, Store, About Us, etc.) */
 .links ul li a,
